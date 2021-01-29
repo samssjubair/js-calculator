@@ -1,6 +1,10 @@
 body{
     background-color: black;
 }
+h1{
+    color: rgb(161, 120, 120);
+    background-color: transparent;
+}
 
 input{
    
