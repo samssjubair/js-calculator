@@ -26,8 +26,8 @@ document.getElementById('cal-buttons').addEventListener('click',function(event){
        
     }
     else{
-        if(prev=="+"||prev=="-"||prev==""||prev=="*"||prev=="/"){   
-            if(target=="+"||target=="-"||target=="*"||target=="/"||target=="="){
+        if(prev=="+"||prev=="-"||prev==""||prev=="*"||prev=="/"||prev=="."){   
+            if(target=="+"||target=="-"||target=="*"||target=="/"||target=="="||target=="."){
                 document.getElementById('display').value=resDisplay;
             }
             else{
